@@ -3660,11 +3660,4 @@ Players.PlayerRemoving:Connect(OnPlayerChange);
 
 getgenv().Library = Library
 
-
-
-if getgenv().ObfuscatedSrc == true then
-
-else
-    game.Players.LocalPlayer:Kick("Blazed | This version is outdated or unofficial!")
-    end
 return Library
